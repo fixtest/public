@@ -1,0 +1,1 @@
+jmeter.bat -n -t moxymind_api.jmx

@@ -1,0 +1,36 @@
+TC1-Login:
+- zakladny stavebny kamen na prihlasenie, ktory sa opakuje v kazdom testovacom scenari (dovod pouzitia-efektivna udrzba scriptov)
+- na klucovych miestach a po kazdom kliknuti su pridane assertions
+- username a password su parametrizovane (premenna VAR_LOGIN a VAR_PASSWORD)
+
+TC2-Logout:
+- zakladny stavebny kamen na odhlasenie, ktory sa opakuje v kazdom testovacom scenari (dovod pouzitia-efektivna udrzba scriptov)
+- na klucovych miestach a po kazdom kliknuti su pridane assertions
+
+TC3-Prihlasenie (pozitivny/negativny):
+- pozitivny a negativny scenar na prihlasenie a odhlasenie (ukazka pouzitia zakladnych stavebnych kamenov Login a Logout pre ucely efektivnej udrzby scriptov)
+- na klucovych miestach a po kazdom kliknuti su pridane assertions
+
+TC4-Produkty:
+- testovaci scenar zamerany na produkty eshopu (scenar povazujem za prioritny z pohladu biznisu - v ramci eshopu je prehladavanie produktov a proces objednavky povazovany za funkcionalitu s najvyssou prioritou)
+- na klucovych miestach a po kazdom kliknuti su pridane assertions
+
+TC5-Kosik (pridaj/odober produkt):
+- scenar objednavania bol rozdeleny do 2 mensich scenarov kvoli udrzbe a prehladnosti pricom toto je jeden z nich (je to jedna z klucovych funkcionalit procesu objednavky, ide teda o scenar s vysokou prioritou)
+- na klucovych miestach a po kazdom kliknuti su pridane assertions
+- overenie bolo zamerane na vsetky mozne sposoby pridavania a mazania produktov
+- bolo overene ci do kosika pridalo spravne produkty v spravnej cene a ci boli nasledne produkty vymazane
+
+TC6-Odoslanie objednavky:
+- scenar odoslania objednavky je biznis kriticky scenar eshopu s najvyssou prioritou
+- na klucovych miestach a po kazdom kliknuti su pridane assertions
+- bolo overene ci do kosika pridalo spravne produkty v spravnej cene, ci bol spravny sucet cien a ci bola objednavka korektne odoslana
+
+TC7-Sortovanie produktov:
+- scenar zamerany na overenie interakcie uzivatela so zoznamom produktov (scenar s nizsou prioritou, nepovazujem ho za dolezity)
+- na klucovych miestach a po kazdom kliknuti su pridane assertions
+- sortovanie produktov desc a asc podla mena a ceny s overenim korektneho zobrazenia zoznamu produktov
+
+
+
+
